@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Enhanced filter for londonpogomap",
+  "description": "Evolution of IV filter for londonpogomap - IV and distance",
+  "version": "1.2",
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+
+  "web_accessible_resources": ["script.js"],
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "http://londonpogomap.com/*"
+  ]
+}
